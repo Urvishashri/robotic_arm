@@ -51,5 +51,5 @@ void loop() {
   servo_joint1.write(value_joint1);
   servo_joint2.write(value_joint2);
 
-  delay(5);
+  delay(6);
 }
