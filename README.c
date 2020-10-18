@@ -31,7 +31,7 @@ void loop() {
   pot_inputs[2] = analogRead(pot_pin_joint1);
   pot_inputs[3] = analogRead(pot_pin_joint2);
 
-  if(pot_inputs[0] > 511) {
+  if(pot_inputs[0] > 500) {
     value_claw = 1;
   } else {
     value_claw = 0;
